@@ -60,7 +60,7 @@ def total_gross(source)
   
  # puts directors_names.length
   while index < directors_names.length do
-    pp directors_total_gross[directors_names[index]]
+    total += directors_total_gross[directors_names[index]]
     index += 1
   end
   
