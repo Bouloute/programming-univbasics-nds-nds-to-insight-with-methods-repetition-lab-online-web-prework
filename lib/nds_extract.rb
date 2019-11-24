@@ -58,10 +58,10 @@ def total_gross(source)
   directors_total_gross = directors_totals(source)
   directors_names = list_of_directors(source)
   
- "" puts directors_names.length
-  #while index < directors_names.length do
-  #  pp directors_total_gross[directors_names[index]]
-  #end
+ # puts directors_names.length
+  while index < directors_names.length do
+    pp directors_total_gross[directors_names[index]]
+  end
   
   
   total
